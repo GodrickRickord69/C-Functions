@@ -14,6 +14,7 @@ Console.WriteLine($"Число {Basis} возведённое в натурал�
 int GetSt(int A, int B)
         {
             int st = 1;
+            
             for(int i = 1; i<=B; i++){
                 st = st * A;
             }
