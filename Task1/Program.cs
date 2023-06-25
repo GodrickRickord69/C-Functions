@@ -3,15 +3,15 @@
 2, 4 -> 16*/
 
 Console.WriteLine("Введите число A: ");
-int A = int.Parse(Console.ReadLine()!);
+int Basis = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите число B: ");
-int limit = int.Parse(Console.ReadLine()!);
+int Power = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Число {A} возведённое в натуральную степень {GetSt(limit)}");
+Console.WriteLine($"Число {Basis} возведённое в натуральную степень {GetSt(Basis, Power)}");
 
 
-int GetSt(int B)
+int GetSt(int A, int B)
         {
             int st = 1;
             for(int i = 1; i<=B; i++){
